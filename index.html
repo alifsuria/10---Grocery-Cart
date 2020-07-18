@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <navbar class="navbar navbar-expand-lg navbar-light bg-light">
+        <a href="#" class="navbar-brand"><img src="img/logo.svg" alt=""></a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse-1"><span
+                class="navbar-toggler-icon"></span></button>
+        <div id="navbar-collapse-1" class="navbar-collapse collapse">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item active">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Store</a>
+                </li>
+            </ul>
+            <div class="nav-info d-none d-lg-flex">
+                <div class="nav-info d-flex justify-content-center align-items-center mx-lg-5">
+                    <span><i class="fas fa-phone"></i></span>
+                    <p class="mb-0">+6011 1110 9558</p>
+                </div>
+                <div>
+                    <div id="cart-info" class="nav-info d-flex align-items-center justify-content-between mx-lg-5 ">
+                        <span class="mx-1"><i class="fas fa-shopping-cart"></i></span>
+                        <span class="item-count mx-1">1</span>
+                        Items - $
+                        <span class="item-total ml-1 mr-1">10.99</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </navbar>
+
+    <section id="banner">
+        <div class="container-fluid">
+            <div class="row justify-content-center max-height align-items-center">
+                <div class="col-10 mx-auto text-center">
+                    <h1 class=""><span style="color: white;font-weight: 500;font-size: 40px">Welcome To </span> <span
+                            style="font-weight: 600;color: palevioletred;font-size: 65px;">Grandma's</span></h1>
+
+                    <a href="#store" class="btn btn-outline-dark btn-lg">Explore</a>
+                </div>
+                <div class="cart show-cart">
+                    <div class="cart-item d-flex justify-content-between text-capitalize my-3">
+                        <img src="img/cupcake-3.jpeg" class="img-cart-info" alt="">
+                        <div>
+                            <p class="mb-0">Cart Item</p>
+                            <span>$</span>
+                            <span class="cart-item-price">10.99</span>
+                        </div>
+                        <div class="d-flex justify-content-center align-items-center">
+                            <a href="#" class="btn"><i class="fa fa-trash text-danger" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between cart-total-container">
+                        <span class="mx-auto">Total</span>
+                        <p class="mb-0 mx-auto">$ <span class="total-amount">10.99</span></p>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <a href="#" class="btn btn-sm btn-outline-dark mx-auto clear-cart">CLEAR CART</a>
+                        <a href="#" class="btn btn-sm btn-outline-danger mx-auto checkout">CHECKOUT</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about-us bg-white">
+        <div class="container h-100">
+            <div class="row h-100 justify-content-center align-items-center">
+                <div class="col-5 p-5">
+                    <h3><span style="font-size: 35px;font-style: italic">About</span> <span
+                            style="font-size:50px;font-style: italic;color: palevioletred">Us</span></h3>
+                    <p class="">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, aliquam voluptas beatae vitae
+                        expedita consectetur nesciunt quia deserunt asperiores facere fuga dicta fugiat corrupti et
+                        omnis porro at dolorum! Ad!
+                    </p>
+                    <button class="btn btn-outline-dark">Explore</button>
+                </div>
+                <div class="col-7 p-5">
+                    <div class="about-us-img ml-5 position-relative">
+                        <img src="img/sweets-1.jpeg" class="img-fluid " alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="store p-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-10 mx-auto text-center">
+                    <h3><span style="font-size: 30px;font-style: italic">Our</span> <span
+                            style="font-size: 50px;font-style: italic;color: palevioletred"><b>Store</b></span></h3>
+                </div>
+            </div>
+            <div class="row my-3 m-0">
+                <div class="col-8 mx-auto flex-wrap d-flex justify-content-center">
+                    <a href="" class="btn btn-outline-dark m-2 filter" data-filter="all" type="button">ALL</a>
+                    <a href="" class="btn btn-outline-dark m-2 filter" data-filter="cakes" type="button">CAKES</a>
+                    <a href="" class="btn btn-outline-dark m-2 filter" data-filter="cupcakes" type="button">CUPCAKES</a>
+                    <a href="" class="btn btn-outline-dark m-2 filter" data-filter="sweets" type="button">SWEETS</a>
+                    <a href="" class="btn btn-outline-dark m-2 filter" data-filter="doughnuts" type="button">DOUGHNUTS</a>
+                </div>
+            </div>
+            <div class="row my-3">
+                <div class="col-7 mx-auto justify-content-center">
+                    <form action="">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text"><i class="fa fa-search" aria-hidden="true"></i></div>
+                            </div>
+                            <input type="text" class="form-control search-bar">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="gallery">
+                <div class="row">
+                    <div class="col-4 store-item mx-auto my-3 sweets" data-item="sweets">
+                        <div class="card">
+                            <div class="img-container">
+                                <img src="img/sweets-1.jpeg" alt="" class="card-img-top">
+                                <span class="card-img-top-icon"><i class="fas fa-shopping-cart"></i></span>
+                            </div>
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between">
+                                    <span>Sweet Item</span>
+                                    <span>$5</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 store-item mx-auto my-3 cupcakes" data-item="cupcakes">
+                        <div class="card">
+                            <div class="img-container">
+                                <img src="img/cupcake-1.jpeg" alt="" class="card-img-top">
+                                <span class="card-img-top-icon"><i class="fas fa-shopping-cart"></i></span>
+                            </div>
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between">
+                                    <span>Cupcake Item</span>
+                                    <span>$5</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 store-item mx-auto my-3 cakes" data-item="cakes">
+                        <div class="card">
+                            <div class="img-container">
+                                <img src="img/cake-1.jpeg" alt="" class="card-img-top">
+                                <span class="card-img-top-icon"><i class="fas fa-shopping-cart"></i></span>
+                            </div>
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between">
+                                    <span>Cake Item</span>
+                                    <span>$5</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 store-item mx-auto my-3 doughnuts" data-item="doughnuts">
+                        <div class="card">
+                            <div class="img-container">
+                                <img src="img/doughnut-1.jpeg" alt="" class="card-img-top">
+                                <span class="card-img-top-icon"><i class="fas fa-shopping-cart"></i></span>
+                            </div>
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between">
+                                    <span>Doughnut Item</span>
+                                    <span>$5</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 store-item mx-auto my-3 sweets" data-item="sweets">
+                        <div class="card">
+                            <div class="img-container">
+                                <img src="img/sweets-2.jpeg" alt="" class="card-img-top">
+                                <span class="card-img-top-icon"><i class="fas fa-shopping-cart"></i></span>
+                            </div>
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between">
+                                    <span>Sweet Item</span>
+                                    <span>$10</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 store-item mx-auto my-3 cupcakes" data-item="cupcakes">
+                        <div class="card">
+                            <div class="img-container">
+                                <img src="img/cupcake-2.jpeg" alt="" class="card-img-top">
+                                <span class="card-img-top-icon"><i class="fas fa-shopping-cart"></i></span>
+                            </div>
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between">
+                                    <span>Cupcake Item</span>
+                                    <span>$10</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 store-item mx-auto my-3 cakes" data-item="cakes">
+                        <div class="card">
+                            <div class="img-container">
+                                <img src="img/cake-2.jpeg" alt="" class="card-img-top">
+                                <span class="card-img-top-icon"><i class="fas fa-shopping-cart"></i></span>
+                            </div>
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between">
+                                    <span>Cake Item</span>
+                                    <span>$10</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 store-item mx-auto my-3 doughnuts" data-item="doughnuts">
+                        <div class="card">
+                            <div class="img-container">
+                                <img src="img/doughnut-2.jpeg" alt="" class="card-img-top">
+                                <span class="card-img-top-icon"><i class="fas fa-shopping-cart"></i></span>
+                            </div>
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between">
+                                    <span>Doughnut Item</span>
+                                    <span>$10</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 store-item mx-auto my-3 sweets" data-item="sweets">
+                        <div class="card">
+                            <div class="img-container">
+                                <img src="img/sweets-3.jpeg" alt="" class="card-img-top">
+                                <span class="card-img-top-icon"><i class="fas fa-shopping-cart"></i></span>
+                            </div>
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between">
+                                    <span>Sweet Item</span>
+                                    <span>$15</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 store-item mx-auto my-3 cupcakes" data-item="cupcakes">
+                        <div class="card">
+                            <div class="img-container">
+                                <img src="img/cupcake-3.jpeg" alt="" class="card-img-top">
+                                <span class="card-img-top-icon"><i class="fas fa-shopping-cart"></i></span>
+                            </div>
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between">
+                                    <span>Cupcake Item</span>
+                                    <span>$15</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 store-item mx-auto my-3 cakes" data-item="cakes">
+                        <div class="card">
+                            <div class="img-container">
+                                <img src="img/cake-3.jpeg" alt="" class="card-img-top">
+                                <span class="card-img-top-icon"><i class="fas fa-shopping-cart"></i></span>
+                            </div>
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between">
+                                    <span>Cake Item</span>
+                                    <span>$15</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 store-item mx-auto my-3 doughnuts" data-item="douhgnuts">
+                        <div class="card">
+                            <div class="img-container">
+                                <img src="img/doughnut-3.jpeg" alt="" class="card-img-top">
+                                <span class="card-img-top-icon"><i class="fas fa-shopping-cart"></i></span>
+                            </div>
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between">
+                                    <span>Doughnut Item</span>
+                                    <span>$15</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
